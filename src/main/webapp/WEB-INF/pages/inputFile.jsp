@@ -5,7 +5,7 @@
 <title>Pivotal Cloud Foundry Migration Assistance</title>
 </head>
 <body>
-  <form:form method="POST" action="/hackathon/addCustomerInfo">
+  <form:form method="POST" action="/addCustomerInfo">
    <table>
     <tr>
         <td><form:label path="fName">First Name</form:label></td>

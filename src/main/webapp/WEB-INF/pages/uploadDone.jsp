@@ -12,7 +12,7 @@
 	<H1>FOR COMPLETE ANALAYSIS PLEASE UPLOAD THE SOURCE</H1>
 	Please input the path to file to upload.
 
-	<form:form action="/hackathon/process" method="POST"
+	<form:form action="/process" method="POST"
 		enctype="multipart/form-data">
 		<table>
 			<tr>

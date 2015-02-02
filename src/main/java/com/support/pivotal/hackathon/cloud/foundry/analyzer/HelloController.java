@@ -49,8 +49,8 @@ public class HelloController {
 		String filePath = fileDir + file.getOriginalFilename();
 		String fileName=file.getOriginalFilename();
 		int length=(int)file.getSize();
-		File saveFile = new File(filePath);
-		FileUtils.copyInputStreamToFile(file.getInputStream(), saveFile);
+		//File saveFile = new File(filePath);
+		//FileUtils.copyInputStreamToFile(file.getInputStream(), saveFile);
 	
 		// so far, temporarily, converting the uploaded file to String
 		InputStream in = file.getInputStream();

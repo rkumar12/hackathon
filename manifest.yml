@@ -1,0 +1,4 @@
+applications:
+  - name: kumar123
+    buildpack: java_buildpack
+    path: target/hackathon.war
