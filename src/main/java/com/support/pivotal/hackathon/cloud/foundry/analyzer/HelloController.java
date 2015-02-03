@@ -46,7 +46,7 @@ public class HelloController {
 		
 		
 		// store the file to local directory - it may not good as a Cloud Foundry application
-		String filePath = fileDir + file.getOriginalFilename();
+		String filePath = file.getOriginalFilename();
 		String fileName=file.getOriginalFilename();
 		int length=(int)file.getSize();
 		//File saveFile = new File(filePath);

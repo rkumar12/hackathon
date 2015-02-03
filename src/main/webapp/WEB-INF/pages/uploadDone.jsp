@@ -1,6 +1,5 @@
 <%@taglib uri="http://www.springframework.org/tags/form" prefix="form"%>
-<%@ page language="java" contentType="text/html; charset=utf-8"
-	pageEncoding="utf-8"%>
+<%@ include file="header.jsp" %>
 <html>
 <body>
 	THANKS ${name} FOR PROVIDING THE INFORMATION.
